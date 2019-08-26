@@ -5,7 +5,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	overflow-x: hidden !important;
+	
 	color: #838282;
 }
 
@@ -44,15 +44,7 @@ img{
 
 /* Preloader */
 
-#preloader {
-  position: fixed;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  background-color:#fff; /* change if the mask should have another color then white */
-  z-index:99999; /* makes sure it stays on top */ 
-}
+
 
 #status {
   width:200px;
